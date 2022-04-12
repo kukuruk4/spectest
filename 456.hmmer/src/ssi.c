@@ -24,6 +24,7 @@
 static sqd_uint32 v20magic = 0xf3f3e9b1; /* SSI 1.0: "ssi1" + 0x80808080 */
 static sqd_uint32 v20swap  = 0xb1e9f3f3; /* byteswapped */
 
+void specqsort(char* base, int n, int size, int	(*compar)());
 static int read_i16(FILE *fp, sqd_uint16 *ret_result);
 static int read_i32(FILE *fp, sqd_uint32 *ret_result);
 static int read_i64(FILE *fp, sqd_uint64 *ret_result);

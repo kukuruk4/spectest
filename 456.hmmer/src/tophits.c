@@ -65,6 +65,8 @@
 #include "structs.h"
 #include "funcs.h"
 
+void specqsort(char* base, int n, int size, int	(*compar)());
+
 /* Function: AllocTophits()
  * 
  * Purpose:  Allocate a struct tophit_s, for maintaining
@@ -304,7 +306,7 @@ FullSortTophits(struct tophit_s *h)
   /* Sort the pointers. Don't bother if we've only got one.
    */
   if (h->num > 1)
-    specqsort(h->hit, h->num, sizeof(struct hit_s *), hit_comparison);
+     specqsort(h->hit, h->num, sizeof(struct hit_s *), hit_comparison);
 }
 
 

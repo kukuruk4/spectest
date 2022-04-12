@@ -49,6 +49,9 @@
  *           the file and a file pointer. Returns NULL on failure.
  *           The file pointer should be fclose()'d normally.
  */
+
+void specqsort(char* base, int n, int size, int	(*compar)());
+
 GSIFILE *
 GSIOpen(char *gsifile)
 {

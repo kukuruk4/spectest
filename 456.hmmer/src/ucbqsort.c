@@ -27,11 +27,7 @@ static void qst(char *, char *);                /* function prototype RRH */
  */
 #undef min
 #undef max
-void specqsort(base, n, size, compar)
-	char	*base;
-	int	n;
-	int	size;
-	int	(*compar)();
+void specqsort(char* base, int n, int size, int	(*compar)())
 {
 	register char c, *i, *j, *lo, *hi;
 	char *min, *max;

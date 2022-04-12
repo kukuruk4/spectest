@@ -36,7 +36,7 @@
 #include "squid.h"		/* general sequence analysis library    */
 #include "structs.h"		/* data structures, macros, #define's   */
 #include "funcs.h"		/* function declarations                */
-#include "globals.h"		/* alphabet global variables            */
+//#include "globals.h"		/* alphabet global variables            */
 
 #ifdef SPEC_CPU
 extern int hmmcalibrate(int argc, char **argv);

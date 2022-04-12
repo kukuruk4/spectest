@@ -41,7 +41,7 @@
 #include "funcs.h"		/* function declarations                */
 
 #ifndef SPEC_CPU
-#include "globals.h"		/* alphabet global variables            */
+//#include "globals.h"		/* alphabet global variables            */
 #endif
 
 

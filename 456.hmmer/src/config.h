@@ -16,7 +16,7 @@
 
 #ifndef CONFIGH_INCLUDED
 #define CONFIGH_INCLUDED
-
+#define SPEC_CPU
 /*****************************************************************
  * This first section can be edited and configured manually
  * before compilation.
